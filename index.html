@@ -1,0 +1,801 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GoHashInclude</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        <style>.centered {
+          position: absolute;
+          top: 450px;
+          left: 50%;
+          font-size: 1.5rem;
+          transform: translate(-50%, -50%);
+        }
+        .text-align {
+        responsive: true;
+        property: text-align;
+        class: text;
+        }
+        .values {
+        center: center;
+        }
+      .fishes{
+        position: absolute;
+        top: 960px;
+        left: 100px;
+      }
+      .fish{
+        position: absolute;
+        top: 854px;
+        left: 701px;
+      }
+    .section1 {
+  position: absolute;
+  top: 1000px;
+  left: 800px;
+  padding: 12px;
+}
+.section2 {
+  position: absolute;
+  top: 1880px;
+  left: 100px;
+  padding: 0px;
+}
+.section3 {
+  position: absolute;
+  top: 3000px;
+  right: 225px;
+  padding: 0px;
+}
+.section4 {
+  position: absolute;
+  top: 5150px;
+  left: 100px;
+  padding: 0px;
+}
+.section5 {
+  position: absolute;
+  top: 5700px;
+  left: 350px;
+  padding: 0px;
+}
+.section6 {
+  position: absolute;
+  top: 6200px;
+  left: 0px;
+  padding: 0px;
+}
+.card11 {
+  position: absolute;
+  top: 300px;
+  left: -100px;
+  padding: 0px;
+}
+.card12 {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  padding: 0px;
+}.card13 {
+  position: absolute;
+  top: 500px;
+  left: -100px;
+  padding: 0px;
+}.card14 {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+  padding: 0px;
+}
+
+.card21 {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.card22 {
+  position: absolute;
+  top: 200px;
+  left: 430px;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.card23 {
+  position: absolute;
+  top: 200px;
+  right: 90px;
+  padding: 0px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.text1-align {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 0px;
+}
+.card2-align {
+  position: absolute;
+  top: 400px;
+  left: 90px;
+  padding: 0px;
+}
+.white4 {
+  position: absolute;
+  top: 600px;
+  left: 440px;
+  padding: 0px;
+}
+.white5 {
+  position: absolute;
+  top: 620px;
+  left: 300px;
+  padding: 0px;
+}
+.bluecard {
+  position: absolute;
+  top: 720px;
+  left: 0px;
+  padding: 0px;
+  background-color: #b8bef0;
+}
+.bluecard2 {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  padding: 0px;
+  background-color: #b8bef0;
+}
+.-min {
+  position: absolute;
+  top: 900px;
+  left: 100px;
+  padding: 0px;
+}
+.-min1 {
+  position: absolute;
+  top: 310px;
+  left: 400px;
+  padding: 0px;
+}
+.feature {
+  position: absolute;
+  top: 104px;
+  left: 0px;
+  padding: 0px;
+}
+.last {
+  position: absolute;
+  top: 480px;
+  left: px;
+  padding: 0px;
+}
+.ghi {
+  position: absolute;
+  top: -5px;
+  left: 20px;
+  padding: 0px;
+}
+.touch {
+  position: absolute;
+  top: 420px;
+  left: 320px;
+  padding: 0px;
+}
+.swaimg {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  padding: 0px;
+}
+.colorimg {
+  position: absolute;
+  top: 450px;
+  left: -1px;
+  padding: 0px;
+}
+body, html{
+    height:100%;
+}
+body{
+    padding:0;
+    margin:0;
+}
+h1, p, li{
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    color:#222;
+    margin:0 0 1em;
+}
+section li{
+    margin:0 0 10px;
+}
+h1{
+    font-size:2.5em;
+    font-weight:300;
+}
+p{
+    font-size:1em;
+    line-height:1.5em;
+}
+.wrapper{
+    overflow:hidden;
+}
+section{
+    padding:30px 30px 30px 80px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:250px;
+    height:100%;
+    margin:0 0 0 -250px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+}
+nav ul{
+    width:250px;
+    height:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    background:rgb(0, 174, 177);
+    overflow:hidden;
+}
+nav li{
+    margin:0;
+}
+nav a{
+    color:#fff;
+    font-size:1em;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    text-decoration:none;
+    display:block;
+    padding:12px 15px;
+    font-weight:300;
+    letter-spacing:2px;
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+nav a:hover{
+    background:#111;
+}
+label{
+    display:block;
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    font-weight:10000;
+    width:42px;
+    height:40px;
+    line-height:42px;
+    color:rgb(0, 174, 177);
+    text-align:center;
+    font-size:4em;
+    line-height:.5em;
+    position:absolute;
+    top:30px;
+    right:40px;
+    -moz-transition:all 200ms ease-in;
+    -webkit-transition:all 200ms ease-in;
+    -o-transition:all 200ms ease-in;
+    transition:all 200ms ease-in;
+    z-index:500;
+    border-style: groove;
+    border-color: rgb(137, 241, 255);
+}
+input[type="checkbox"]{
+    display:none;
+}
+input[type="checkbox"]:checked ~ nav{
+    margin:0;
+}
+input[type="checkbox"]:checked ~ label{
+    right:40px;
+}
+input[type="checkbox"]:checked ~ section{
+    -webkit-transform:translate3d(260px, 0, 0);
+    -moz-transform:translate3d(260px, 0, 0);
+    -o-transform:translate3d(260px, 0, 0);
+    transform:translate3d(260px, 0, 0);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  border-radius: px;
+  overflow: hidden;
+  position: relative;
+  top: 60px;
+}
+
+.slides {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide:nth-of-type(even) {
+  background-color: rgb(250, 246, 212);
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 400px;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: white;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide__text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.slide a {
+  background: none;
+  border: none;
+}
+
+a.slide__prev,
+.slider::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 5%;
+}
+
+a.slide__next,
+.slider::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 5%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+  position: absolute;
+  top: 48%;
+  width: 35px;
+  height: 35px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.slider__nav {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.slider__navlink {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 10px 0 10px;
+}
+
+
+
+
+
+
+
+
+.read-article{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  color: #000;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: arial;
+  text-decoration: none;
+  box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px -15px;
+}
+.read-article:hover{
+    background: #d5d5d5;
+    box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px 0px;
+}
+iframe[sandbox] .read-article{
+  display: none;
+}
+.svg1 {
+  fill: rgb(0, 174, 177);
+}
+.svg2 {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  fill: rgb(255, 255, 255);
+}
+
+form {
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color:#ffffff;
+}
+
+.container1 {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+input[type=text], input[type=submit] {
+  padding: 14px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  background-color: rgb(0, 174, 177);
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+        </style>
+      </head>
+
+    <header class="page-header">
+      <div class="wrapper">
+            <div class="ghi">
+              <img src="GHI.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top">
+            </div>
+        
+          <input type="checkbox" id="navigation" />
+          <label for="navigation">
+              =
+          </label>
+          <nav class="navbar navbar-light bg-light" style="background-color: #ffffff;">
+              <ul>
+                  <li>
+                      <a href="">Home</a>
+                  </li>
+                  <li>
+                      <a href="">Latest Updates</a>
+                  </li>
+                  <li>
+                      <a href="">What We Do</a>
+                  </li>
+                  <li>
+                      <a href="">About Us</a>
+                  </li>
+                  <li>
+                      <a href="">Contact Us</a>
+                  </li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+        <section>
+            <img src="headerimage.jpeg" class="feature" style="z-index:-5;" alt="feature_image" width="1351" height="750">
+              <div class="centered text-white">
+                  <h1><p class="d-flex justify-content-center text-center text-white">Join GHI's Vartual Program For New Perspectives</p></h1>
+                  <p class="p-4 d-flex justify-content-center text-white"> About Us | News | Reviews | Articles | #Future </p>
+                  <p class="d-flex justify-content-center text-white"><a style="border: 2px solid rgb(179, 179, 179)">&emsp;Learn more&emsp;</a></p>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <img src="bg4mini.jpg" class="fish" width="650" height="900">
+          <img src="sa-min.jpg" class="fishes" width="1000" height="620">
+
+          <div class="section1">
+              <div class="card11">
+                <div class="card text-center" style="width: 14rem; height: 11rem;">
+                  <div class="p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg1" width="90" height="90" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg2" width="10" height="10" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="svg-content" viewBox="0 0 511.986 511.986" id="svg-868c"><g><path d="m496.986 370.039c8.284 0 15-6.716 15-15v-70.686c0-8.284-6.716-15-15-15h-25.507v-40.686h5.254c8.284 0 15-6.716 15-15v-70.686c0-8.284-6.716-15-15-15h-146.838c-17.964-73.052-84.014-127.404-162.531-127.404-92.285 0-167.364 75.079-167.364 167.364s75.079 167.364 167.364 167.364c26.047 0 50.721-5.984 72.726-16.644v21.378h-5.254c-8.284 0-15 6.716-15 15v70.685c0 8.284 6.716 15 15 15h5v55.686c0 8.284 6.716 15 15 15h241.897c8.284 0 15-6.716 15-15v-70.686c0-8.284-6.716-15-15-15h-5v-40.685zm-55.507-100.685h-141.071c9.424-12.334 17.178-26.007 22.914-40.686h118.158v40.686zm20.254-111.372v40.686h-129.843c1.857-9.964 2.838-20.233 2.838-30.727 0-3.344-.11-6.662-.305-9.958h127.31zm-431.733 9.959c0-75.743 61.622-137.364 137.364-137.364s137.364 61.621 137.364 137.364-61.621 137.364-137.364 137.364-137.364-61.621-137.364-137.364zm240.09 132.036c.267-.208.534-.414.8-.623h211.097v40.686h-211.897zm211.643 181.433h-211.897v-40.686h211.897zm-20-70.686h-206.897-5v-40.685h5.254 206.643z"></path><path d="m216.944 157.295c6.122-8.188 9.752-18.343 9.752-29.331 0-25.461-19.489-46.449-44.331-48.847v-21.45c0-8.284-6.716-15-15-15s-15 6.716-15 15v21.216h-17.775c-8.284 0-15 6.716-15 15v68.203.11 79.801c0 3.99 1.589 7.815 4.417 10.63 2.812 2.799 6.617 4.37 10.583 4.37h.067c.176-.001 8.062-.036 17.707-.074v21.29c0 8.284 6.716 15 15 15s15-6.716 15-15v-21.389c1.052-.002 1.984-.003 2.763-.003 30.254 0 54.868-24.614 54.868-54.868.001-18.398-9.112-34.698-23.051-44.658zm-39.33-48.411c10.521 0 19.082 8.56 19.082 19.081s-8.56 19.081-19.082 19.081c-3.169 0-9.179.017-15.723.041h-12.3v-38.203zm7.513 117.938c-6.462 0-23.092.062-35.537.113v-49.801c3.963-.016 8.28-.033 12.386-.047h23.151c13.712 0 24.868 11.156 24.868 24.868s-11.155 24.867-24.868 24.867z"></path></g></svg></svg>
+                    <div class="card-body">
+                      <h5 class="card-title">BLOCKCHAIN</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card12">
+                <div class="card text-center" style="width: 14rem; height: 11rem;">
+                  <div class="p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg1" width="90" height="90" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg2" width="10" height="10" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 24 24" id="svg-19e9"><path d="m19.75 4.687c-.191 0-.382-.072-.528-.218-1.93-1.914-4.495-2.969-7.222-2.969s-5.292 1.055-7.222 2.969c-.294.292-.768.29-1.061-.004-.292-.294-.29-.77.004-1.061 2.214-2.195 5.154-3.404 8.279-3.404s6.065 1.209 8.278 3.404c.294.291.296.767.004 1.061-.146.147-.339.222-.532.222z"></path><path d="m17.052 7.362c-.191 0-.382-.072-.528-.218-1.211-1.201-2.817-1.862-4.524-1.862s-3.313.661-4.524 1.863c-.294.292-.769.29-1.061-.004-.291-.294-.29-.769.004-1.061 1.494-1.481 3.476-2.298 5.581-2.298s4.087.816 5.581 2.298c.294.292.296.767.004 1.061-.147.147-.34.221-.533.221z"></path><path d="m14.354 10.038c-.193 0-.386-.074-.533-.222-.963-.971-2.681-.971-3.644 0-.291.294-.765.296-1.06.004-.294-.291-.296-.766-.004-1.06.765-.772 1.791-1.197 2.887-1.197s2.122.425 2.887 1.196c.292.294.29.77-.004 1.061-.147.146-.338.218-.529.218z"></path><path d="m9.125 21h-1.875c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.875c.482 0 .875-.393.875-.875s-.393-.875-.875-.875h-1.875c-.414 0-.75-.336-.75-.75v-3.25c0-.414.336-.75.75-.75h3.5c.414 0 .75.336.75.75s-.336.75-.75.75h-2.75v1.75h1.125c1.31 0 2.375 1.065 2.375 2.375s-1.065 2.375-2.375 2.375z"></path><path d="m16.75 21h-2.5c-.965 0-1.75-.785-1.75-1.75v-4.5c0-.965.785-1.75 1.75-1.75h2.5c.414 0 .75.336.75.75s-.336.75-.75.75h-2.5c-.138 0-.25.112-.25.25v4.5c0 .138.112.25.25.25h1.75v-1.5h-.75c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.5c.414 0 .75.336.75.75v3c0 .414-.336.75-.75.75z"></path></svg></svg>
+                    <div class="card-body">
+                      <h5 class="card-title">5G NETWORK</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card13">
+                <div class="card text-center" style="width: 14rem; height: 11rem;">
+                  <div class="p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg1" width="90" height="90" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg2" width="10" height="10" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 512.012 512.012" id="svg-c4a7"><g><path d="m59.998 332.666v87.346h61v92h210v-62.218c0-56.303 12.309-115.303 37.563-179.782h32.224l25.611 25.611c-2.817 5.875-4.398 12.451-4.398 19.39 0 24.813 20.187 45 45 45s45-20.187 45-45-20.187-45-45-45c-6.938 0-13.514 1.581-19.389 4.398l-34.398-34.398h-32.572c3.497-9.779 6.115-19.796 7.843-30.01h36.096c6.192 17.469 22.865 30.01 42.42 30.01 24.813 0 45-20.187 45-45s-20.187-45-45-45c-19.555 0-36.228 12.541-42.42 30h-33.58c0-10.152-.845-20.177-2.485-30h24.698l34.398-34.397c5.875 2.817 12.45 4.398 19.389 4.398 24.813 0 45-20.187 45-45s-20.187-45-45-45-45 20.187-45 45c0 6.939 1.581 13.514 4.398 19.389l-25.611 25.61h-19.994c-24.022-68.126-88.986-119.066-167.616-120-88.723-1.043-163.221 61.684-179.498 143.168-5.685 28.455-4.837 56.601 2.51 83.77l-36.173 62.25zm407-32.654c8.271 0 15 6.729 15 15s-6.729 15-15 15-15-6.729-15-15 6.728-15 15-15zm0-120c8.271 0 15 6.729 15 15s-6.729 15-15 15-15-6.729-15-15 6.728-15 15-15zm0-120c8.271 0 15 6.729 15 15s-6.729 15-15 15-15-6.729-15-15 6.728-15 15-15zm-117.798 178.089c-.272.639-.533 1.273-.802 1.911h-92.44c6.565-8.725 11.274-18.921 13.531-30.01h88.481c-1.971 9.61-4.896 18.996-8.77 28.099zm-108.202-43.089c0 24.813-20.187 45-45 45s-45-20.187-45-45 20.187-45 45-45 45 20.187 45 45zm120-15h-91.509c-2.258-11.079-6.967-21.275-13.532-30h101.998c1.993 9.704 3.043 19.738 3.043 30zm-297.903-30.954c13.953-69.845 76.913-119.906 149.725-119.047 60.427.717 112.514 37.715 135.55 90.001h-152.372c-41.355 0-75 33.645-75 75s33.645 75 75 74.99h140.455c-23.819 63.823-35.455 122.919-35.455 179.792v32.218h-150v-92h-61v-72.655l-50.417-36.534 29.076-50.038c-.795-4.156-14.724-35.852-5.562-81.727z"></path><path d="m180.998 180.012h30v30h-30z"></path></g></svg></svg>
+                    <div class="card-body">
+                      <h5 class="card-title">AI PRODUCTS</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card14">
+                <div class="card text-bottom-center" style="width: 14rem; height: 11rem;">
+                  <div class="p-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg1" width="90" height="90" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="svg2" width="10" height="10" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" id="svg-48f3"><g><path d="m467.5 218.79c5.523 0 10-4.477 10-10s-4.477-10-10-10h-37.882v-27.225h37.882c5.523 0 10-4.477 10-10s-4.477-10-10-10h-37.882v-16.361c0-2.651-1.052-5.193-2.926-7.068l-28.917-28.941c-1.875-1.877-4.42-2.932-7.074-2.932h-16.365v-37.848c0-5.523-4.477-10-10-10s-10 4.477-10 10v37.848h-27.23v-37.848c0-5.523-4.477-10-10-10s-10 4.477-10 10v37.848h-27.202v-35.836c0-33.32-27.11-60.427-60.434-60.427-27.264 0-50.959 18.428-58.186 44.029-20.782 2.112-40.037 11.3-54.896 26.343-16.78 16.99-26.021 39.501-26.021 63.386 0 11.853 2.34 23.593 6.827 34.476-14.037 7.459-26.081 18.186-35.211 31.443-11.437 16.608-17.483 36.079-17.483 56.309 0 37.241 20.362 70.644 52.689 87.78-4.482 10.863-6.82 22.593-6.82 34.448 0 23.885 9.241 46.396 26.021 63.386 14.858 15.043 34.113 24.231 54.895 26.343 7.226 25.618 30.923 44.057 58.187 44.057 33.323 0 60.434-27.107 60.434-60.427v-35.864h27.202v37.876c0 5.523 4.477 10 10 10s10-4.477 10-10v-37.876h27.23v37.876c0 5.523 4.477 10 10 10s10-4.477 10-10v-37.876h16.365c2.652 0 5.195-1.053 7.071-2.929l28.917-28.913c1.875-1.875 2.929-4.419 2.929-7.071v-16.39h37.88c5.523 0 10-4.477 10-10s-4.477-10-10-10h-37.882v-27.196h37.882c5.523 0 10-4.477 10-10s-4.477-10-10-10h-37.882v-27.224h37.882c5.523 0 10-4.477 10-10s-4.477-10-10-10h-37.882v-27.196zm-248.028 273.21c-16.589 0-31.194-10.201-37.343-24.932 7.294-1.306 14.406-3.525 21.245-6.663 9.939-4.563 18.828-10.808 26.419-18.562 3.863-3.947 3.796-10.278-.15-14.142-3.947-3.863-10.277-3.796-14.142.15-5.875 6-12.762 10.837-20.469 14.375-8.144 3.736-16.776 5.807-25.659 6.167-38.072-.628-69.004-32.056-69.004-70.182 0-12.047 3.095-23.917 8.95-34.329 1.412-2.509 1.673-5.505.717-8.22-.955-2.716-3.035-4.888-5.706-5.961-30.27-12.157-49.83-41.093-49.83-73.715 0-32.631 19.557-61.555 49.824-73.686 5.946-3.215 7.613-7.941 5.001-14.175-5.859-10.442-8.956-22.326-8.956-34.366 0-38.126 30.932-69.554 69.004-70.182 8.827.359 17.466 2.432 25.657 6.166 7.721 3.544 14.603 8.385 20.456 14.389 1.96 2.01 4.56 3.02 7.162 3.02 2.516 0 5.035-.944 6.979-2.839 3.955-3.855 4.035-10.187.18-14.141-7.576-7.771-16.47-14.031-26.458-18.616-6.86-3.127-13.962-5.341-21.221-6.646 6.149-14.719 20.754-24.91 37.344-24.91 22.295 0 40.434 18.136 40.434 40.427v122.603h-31.132l-26.531-26.528c2.824-5.155 4.33-10.963 4.33-17.004 0-9.476-3.69-18.385-10.393-25.086-13.832-13.83-36.34-13.831-50.173 0-6.701 6.701-10.392 15.61-10.392 25.085s3.69 18.384 10.392 25.085c6.916 6.915 16.001 10.373 25.086 10.373 5.86 0 11.716-1.448 16.995-4.325l29.472 29.469c2.133 1.909 4.49 2.886 7.071 2.929h35.274v42.956h-62.667c-4.332-14.694-17.948-25.455-34.039-25.455-19.552 0-35.458 15.905-35.458 35.455 0 19.565 15.906 35.483 35.458 35.483 16.094 0 29.712-10.773 34.041-25.483h62.665v42.956h-35.274c-.268 0-.498.014-.71.034-2.318.164-4.591 1.124-6.364 2.897l-29.473 29.493c-13.46-7.335-30.702-5.324-42.078 6.05-6.708 6.708-10.398 15.624-10.392 25.107.006 9.469 3.701 18.364 10.392 25.036 6.918 6.917 16.004 10.374 25.09 10.374 9.082 0 18.164-3.456 25.073-10.364 6.701-6.682 10.396-15.576 10.402-25.045.004-6.05-1.503-11.866-4.332-17.028l26.535-26.553h31.129v122.631c.002 22.292-18.136 40.428-40.431 40.428zm-32.899-352.501c0 4.133-1.61 8.019-4.533 10.942-6.036 6.035-15.855 6.035-21.891 0-2.923-2.923-4.533-6.809-4.533-10.942s1.61-8.02 4.533-10.942c6.036-6.034 15.856-6.034 21.891 0 2.923 2.922 4.533 6.808 4.533 10.942zm-7.888 116.487c0 8.537-6.947 15.483-15.486 15.483-8.523 0-15.458-6.946-15.458-15.483 0-8.521 6.935-15.455 15.458-15.455 8.539 0 15.486 6.933 15.486 15.455zm7.888 116.523c-.003 4.121-1.609 7.991-4.533 10.906-6.036 6.034-15.856 6.035-21.901-.01-2.914-2.905-4.521-6.775-4.523-10.896-.003-4.135 1.607-8.024 4.533-10.95 6.035-6.033 15.855-6.034 21.889-.001.001.001.002.002.003.004 0 0 .001.001.001.001 2.925 2.926 4.534 6.813 4.531 10.946zm223.045.144-23.058 23.056h-106.655v-29.634h90.073c5.523 0 10-4.477 10-10v-55.218c0-5.523-4.477-10-10-10s-10 4.477-10 10v45.218h-80.073v-180.15h80.073v45.104c0 5.523 4.477 10 10 10s10-4.477 10-10v-55.104c0-5.523-4.477-10-10-10h-90.073v-29.662h106.652l23.061 23.081z"></path><path d="m369.979 245.958c-5.523 0-10 4.477-10 10v.028c0 5.523 4.477 9.986 10 9.986s10-4.491 10-10.014-4.478-10-10-10z"></path></g></svg></svg>
+                    <div class="card-body">
+                      <h5 class="card-title">AUTOMATION</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section class="section2" style="width: 1150px;">
+          <div class="container">
+          <h1><p class="d-flex justify-content-center">Technology Of The Future</p></h1>
+          <img src="element.png" class="mx-auto d-block" width="600" height="50">
+              <div class="row p-4">
+                <div class="col-sm-4 p-4">
+                  <div class="card p-4 text-center card21" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Machine Learning</h5><br>
+                      <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 p-4">
+                  <div class="card p-4 text-center card22" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Edge Computing</h5><br>
+                      <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 p-4">
+                  <div class="card p-4 text-center card23" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Artificial Intelligence</h5><br>
+                      <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <img src="touch.jpg" class="rounded-circle mx-auto d-block touch" style="z-index:-5;" width="500" height="500">
+          </div>
+        </section>
+
+        <section class="section3" style="left: 0px; right: 0px;">
+          <div class="container" style="margin-left: 0px;">
+            <img src="swa-min.jpg" class="swaimg" alt="swa-min" width="1352" height="450">
+            <img src="colorbg.png" class="colorimg" alt="colorbg" width="1352" height="800">
+          </div>
+          <div class="card2-align" style="width: 1159px;">
+            <div class="row ">
+              <div class="col-3">
+                <div class="card p-4" style="width: 16rem; ">
+                  <div class="card-body">
+                    <p><img class="card-img-top" src="one.png" style="width: 80px; height: 80px;" alt="one">
+                    <h5 class="card-title">Future</h5></p>
+                    <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="" class="">LEARN MORE</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card p-4" style="width: 16rem; ">
+                  <div class="card-body">
+                    <p><img class="card-img-top" src="two.png" style="width: 80px; height: 80px;" alt="two">
+                    <h5 class="card-title">Crypto basics</h5></p>
+                    <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="" class="">LEARN MORE</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card p-4" style="width: 16rem;">
+                  <div class="card-body">
+                    <p><img class="card-img-top" src="three.png" style="width: 80px; height: 80px;" alt="three">
+                    <h5 class="card-title">Courses</h5></p>
+                    <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="" class="">LEARN MORE</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card p-4" style="width: 16rem;">
+                  <div class="card-body">
+                    <p><img class="card-img-top" src="four.png" style="width: 80px; height: 80px;" alt="four">
+                    <h5 class="card-title">Support</h5></p>
+                    <p class="card-text">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                    <a href="" class="">LEARN MORE</a>  
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card bluecard mb-3" style="width: 40rem; height: 35rem;">
+                <div class="card-body">
+                </div>
+              </div>
+            </div>
+            <div class="white4">
+              <div class="card p-4" style="width: 45rem; height: 30rem;">
+                <div class="card-body">
+                  <h1 class="card-title">AI & Digital Platform</h1><br>
+                  <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat...               </p><br>
+                  <a href="" class="btn btn-primary btn-square-md">LEARN MORE</a>  
+                </div>
+              </div>
+            </div>
+            <img src="-min.jpg" alt="-min" class="-min" width="880" height="700">
+          </div>
+        </section>
+
+        <section class="section4">
+          <div class="container">
+          <h1><p class="p-4 d-flex justify-content-center">Essential 8 Emerging Technologies</p></h1>
+            <div class="row p-4">
+              <div class="col-sm-4">
+                  <div class="card-body">
+                    <p class="card-text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim. Ut porttitor leo a diam sollicitudin. Turpis in eu mi bibendum neque egestas congue quisque egestas.</p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card-body">
+                    <p class="card-text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim. Ut porttitor leo a diam sollicitudin. Turpis in eu mi bibendum neque egestas congue quisque egestas.</p>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card-body">
+                    <p class="card-text">Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet tellus cras adipiscing enim. Ut porttitor leo a diam sollicitudin. Turpis in eu mi bibendum neque egestas congue quisque egestas.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section5" style="left: 100px; right: 100px;">
+          <div class="container">
+          <h1><p class="d-flex justify-content-center">Technology Of The Future</p></h1>
+          <img src="element.png" class="mx-auto d-block" width="600" height="50">
+              <div>
+                <div class="card mb-3 bluecard2" style="width: 20rem; height: 40rem;">
+                  <div class="card-body">
+                  </div>
+                </div>
+              </div>
+              <img src="-min(1).jpg" alt="-min(1)" class="-min1" width="650" height="480">
+              <div class="left">
+                <div class="slider-container" style="width: 540px;">
+                  <div class="slider">
+                    <div class="slides">
+                      <div id="slides__1" class="slide p-4">
+                        <span class="p-4">
+                          <h1>Online Classes</h1>
+                          <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </span>
+                        <div class="slide__text"></div>
+                        <a class="slide__prev" href="#slides__2" title="Next"></a>
+                        <a class="slide__next" href="#slides__2" title="Next"></a>
+                      </div>
+                      <div id="slides__2" class="slide p-4">
+                        <span class="p-4">
+                          <h1>Simplicity Is Key</h1>
+                          <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </span>
+                        <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                        <a class="slide__next" href="#slides__1" title="Next"></a>
+                      </div>
+                    </div>
+                    <div class="slider__nav">
+                      <a class="slider__navlink" href="#slides__1"></a>
+                      <a class="slider__navlink" href="#slides__2"></a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section6">
+          <img src="last.jpg" class="last" style="z-index:-5;" alt="last" width="1351" height="700">
+          <div class="white5">
+            <div class="card p-4" style="width: 45rem; height: 25rem;">
+              <div class="card-body"><br>
+                <h1 class="card-title text-center">Join Our Newsletter</h1>
+                <form action="/action_page.php" style="width: 640px;">
+                  <div class="d-flex" style="background-color:white">
+                    <input type="text" placeholder="Email address" style="width: 500px;" name="mail" required>
+                    <input type="submit" style="width: 138px; height: 54px;" value="Notify Me">
+                  </div>
+                </form><br><br>
+                <div style=" width: 640px; padding-left: 0px; padding-right: 0px; padding-top: 0px; margin-right: 0px;">
+                  <br><h2 class="card-title text-center">FOLLOW US:</h2>
+                  <div class="text-center"><br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                    </svg>&emsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                    </svg>&emsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>&emsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+    <footer class="text-center" id="sec-b796">
+      <div class="p-4 justify-content-center">
+        <p class="u-small-text u-text u-text-variant u-text-1">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+      </div>
+    </footer>
+</html>
